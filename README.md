@@ -25,11 +25,5 @@ Me chamo Marcus Vinicius da Silva lopes, tenho 16 anos e sou natural de Fortalez
 <br>
 <br>
 
-<div align="center">
-  <div style="display: flex; flex-wrap: nowrap; justify-content: center; gap: 18px; max-width: 1024px; width: 100%; align-items: stretch; overflow-x: auto; padding-bottom: 8px;">
-    <div style="flex: 0 0 calc(50% - 9px); max-width: 520px; min-width: 340px; background: #0d1221; border: 1px solid #1f2937; border-radius: 18px; padding: 22px;">
-      <div style="margin-bottom: 16px;">
-        <div style="color: #edf2ff; font-size: 15px; font-weight: 700;">📈 Estatísticas do GitHub</div>
-        <div style="color: #94a3b8; font-size: 13px; line-height: 1.5; margin-top: 8px;">Métricas públicas do perfil <strong>viniciuslopes1023-spec</strong>.</div>
- 
+
 
