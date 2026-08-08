@@ -3,7 +3,7 @@
 </div>
 
 <div align="center" style="background: linear-gradient(135deg, #08090d 0%, #121722 45%, #1b2230 100%); border: 1px solid #2f3b53; border-radius: 24px; padding: 24px; margin: 16px 0; box-shadow: 0 0 0 1px rgba(255,138,61,0.14), 0 12px 30px rgba(0,0,0,0.35);">
-  <div align="left" style="padding: 12px; background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.06); border-radius: 14px;">
+  <div align="left" style="padding: 14px 16px; background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.06); border-radius: 16px;">
     <p style="margin: 0 0 8px 0; color: #7CFFCB; font-size: 13px; font-family: Arial, sans-serif;">~/dev $ echo &quot;Hello, world!&quot;</p>
     <h2 style="margin: 0 0 8px 0; color: #ffffff; font-family: Arial, sans-serif;">👨‍💻 Marcus Vinicius</h2>
     <p style="margin: 0 0 8px 0; color: #ff8a3d; font-weight: bold; font-family: Arial, sans-serif;">Desenvolvedor Backend • Java • Programador</p>
