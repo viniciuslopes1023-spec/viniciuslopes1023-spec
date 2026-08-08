@@ -13,7 +13,7 @@
     <p style="margin: 0 0 10px 0; font-family: 'Fira Code', 'JetBrains Mono', monospace; color: #7CFFCB; font-size: 13px; letter-spacing: 1px;">~/dev $ echo "Hello, world!"</p>
     <h2 style="margin: 0 0 8px 0; color: #ffffff; font-family: 'Fira Code', 'JetBrains Mono', monospace; text-shadow: 0 0 12px rgba(255,138,61,0.24);">👨‍💻 Marcus Vinicius</h2>
     <p style="margin: 0 0 10px 0; color: #ff8a3d; font-weight: 700; font-family: 'Fira Code', 'JetBrains Mono', monospace;">Desenvolvedor Backend • Java • Programador</p>
-    <p style="margin: 0 0 8px 0; color: #d9d9d9; line-height: 1.7;">Me chamo Marcus Vinicius da Silva Lopes, tenho 16 anos e sou natural de Fortaleza(CE). Atualmente, cursando o 2º ano do Ensino Médio na EEEPSAM, concomitantemente ao curso técnico em Desenvolvimento de Sistemas. Tenho grande interesse pela área de tecnologia e pelo desenvolvimento de soluções digitais. Busco constantemente aprimorar meus conhecimentos em Desenvolvimento de Sistemas, adquirir novas habilidades e aplicá-las na criação de projetos e na resolução de problemas.</p>
+    <p style="margin: 0 0 8px 0; color: #d9d9d9; line-height: 1.6;">Sou Marcus Vinicius, um jovem apaixonado por tecnologia e desenvolvimento. Estudo Java, gosto de criar soluções e estou sempre buscando evoluir com dedicação, criatividade e muito aprendizado.</p>
   </div>
 
   <div align="center" style="margin-top: 16px;">
