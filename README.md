@@ -46,10 +46,10 @@
 </div>
 
 <div align="center" style="margin: 24px 0 0 0; display:flex; gap:18px; justify-content:center; flex-wrap:wrap;">
-  <a href="https://www.linkedin.com" target="_blank"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo" style="border-radius: 10px; box-shadow: 0 0 12px rgba(255,138,61,0.15);" /></a>
-  <a href="https://discord.com" target="_blank"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/discord/default.svg" width="52" height="40" alt="discord logo" style="border-radius: 10px; box-shadow: 0 0 12px rgba(255,138,61,0.15);" /></a>
-  <a href="https://wa.me/" target="_blank"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/whatsapp/default.svg" width="52" height="40" alt="whatsapp logo" style="border-radius: 10px; box-shadow: 0 0 12px rgba(255,138,61,0.15);" /></a>
-  <a href="https://www.instagram.com" target="_blank"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" width="52" height="40" alt="instagram logo" style="border-radius: 10px; box-shadow: 0 0 12px rgba(255,138,61,0.15);" /></a>
+  <a href="https://www.linkedin.com" target="blank"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo" style="border-radius: 10px; box-shadow: 0 0 12px rgba(255,138,61,0.15);" /></a>
+  <a href="https://discord.com" target="blank"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/discord/default.svg" width="52" height="40" alt="discord logo" style="border-radius: 10px; box-shadow: 0 0 12px rgba(255,138,61,0.15);" /></a>
+  <a href="https://wa.me/" target="blank"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/whatsapp/default.svg" width="52" height="40" alt="whatsapp logo" style="border-radius: 10px; box-shadow: 0 0 12px rgba(255,138,61,0.15);" /></a>
+  <a href="https://www.instagram.com" target="blank"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" width="52" height="40" alt="instagram logo" style="border-radius: 10px; box-shadow: 0 0 12px rgba(255,138,61,0.15);" /></a>
 </div>
 
 <br clear="both">
