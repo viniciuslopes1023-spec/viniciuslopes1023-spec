@@ -2,24 +2,12 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&height=110&section=header&reversal=false&fontSize=70&fontColor=C2410C&fontAlign=50&fontAlignY=50&stroke=-&descSize=20&descAlign=50&descAlignY=50&textBg=false&color=C2410C" alt="header" />
 </div>
 
-<div align="center" style="background: linear-gradient(135deg, #08090d 0%, #121722 45%, #1b2230 100%); border: 1px solid #2f3b53; border-radius: 24px; padding: 24px 26px; margin: 16px 0; box-shadow: 0 0 0 1px rgba(255,138,61,0.14), 0 18px 45px rgba(0,0,0,0.45);">
-  <div align="left" style="padding: 12px 14px; background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.06); border-radius: 16px;">
-    <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 12px;">
-      <span style="width: 10px; height: 10px; border-radius: 50%; background: #ff5f56;"></span>
-      <span style="width: 10px; height: 10px; border-radius: 50%; background: #febc2e;"></span>
-      <span style="width: 10px; height: 10px; border-radius: 50%; background: #27c93f;"></span>
-    </div>
-
-    <p style="margin: 0 0 10px 0; font-family: 'Fira Code', 'JetBrains Mono', monospace; color: #7CFFCB; font-size: 13px; letter-spacing: 1px;">~/dev $ echo "Hello, world!"</p>
-    <h2 style="margin: 0 0 8px 0; color: #ffffff; font-family: 'Fira Code', 'JetBrains Mono', monospace; text-shadow: 0 0 12px rgba(255,138,61,0.24);">👨‍💻 Marcus Vinicius</h2>
-    <p style="margin: 0 0 10px 0; color: #ff8a3d; font-weight: 700; font-family: 'Fira Code', 'JetBrains Mono', monospace;">Desenvolvedor Backend • Java • Programador</p>
-    <p style="margin: 0 0 8px 0; color: #d9d9d9; line-height: 1.6;">Sou Marcus Vinicius, um jovem apaixonado por tecnologia e desenvolvimento. Estudo Java, gosto de criar soluções e estou sempre buscando evoluir com dedicação, criatividade e muito aprendizado.</p>
-  </div>
-
-  <div align="center" style="margin-top: 16px;">
-    <img src="https://img.shields.io/badge/Focus-Backend-orange?style=for-the-badge&logo=java&logoColor=white" alt="Focus Backend" />
-    <img src="https://img.shields.io/badge/Stack-Java%20%2F%20Spring-darkgreen?style=for-the-badge&logo=java&logoColor=white" alt="Java Spring" />
-    <img src="https://img.shields.io/badge/Goal-Always%20Learning-ff69b4?style=for-the-badge" alt="Always learning" />
+<div align="center" style="background: linear-gradient(135deg, #08090d 0%, #121722 45%, #1b2230 100%); border: 1px solid #2f3b53; border-radius: 24px; padding: 24px; margin: 16px 0; box-shadow: 0 0 0 1px rgba(255,138,61,0.14), 0 12px 30px rgba(0,0,0,0.35);">
+  <div align="left" style="padding: 12px; background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.06); border-radius: 14px;">
+    <p style="margin: 0 0 8px 0; color: #7CFFCB; font-size: 13px; font-family: Arial, sans-serif;">~/dev $ echo "Hello, world!"</p>
+    <h2 style="margin: 0 0 8px 0; color: #ffffff; font-family: Arial, sans-serif;">👨‍💻 Marcus Vinicius</h2>
+    <p style="margin: 0 0 8px 0; color: #ff8a3d; font-weight: bold; font-family: Arial, sans-serif;">Desenvolvedor Backend • Java • Programador</p>
+    <p style="margin: 0; color: #d9d9d9; font-family: Arial, sans-serif; line-height: 1.5;">Sou Marcus Vinicius, um jovem apaixonado por tecnologia e desenvolvimento. Estudo Java, gosto de criar soluções e estou sempre buscando evoluir com dedicação, criatividade e muito aprendizado.</p>
   </div>
 </div>
 
