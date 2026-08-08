@@ -3,13 +3,10 @@
 </div>
 
 <div align="center" style="background: linear-gradient(135deg, #0f0f10 0%, #1a1a1d 100%); border: 1px solid #2d2d32; border-radius: 20px; padding: 24px; box-shadow: 0 10px 30px rgba(0,0,0,0.35); margin: 12px 0;">
-  <img align="right" width="220" height="280" src="https://i.ibb.co/Q3txCnvK/Chat-GPT-Image-8-de-ago-de-2026-00-17-03.png" style="border-radius: 18px; border: 2px solid #C2410C; box-shadow: 0 0 18px rgba(194,65,12,0.35); margin-left: 18px; margin-top: 6px;" alt="Marcus Vinicius" />
-
   <div align="left">
     <h2 style="margin: 0 0 8px 0; color: #f5f5f5;">👨‍💻 Marcus Vinicius</h2>
     <p style="margin: 0 0 8px 0; color: #ff8a3d; font-weight: bold;">Desenvolvedor Backend • Java • Programador</p>
-    <p style="margin: 0 0 8px 0; color: #d9d9d9;">Sou um jovem apaixonado por tecnologia, com foco em desenvolvimento backend e soluções que fazem a diferença. Estudo Java e gosto de construir projetos com organização, lógica e performance.</p>
-    <p style="margin: 0; color: #d9d9d9;">Tenho 16 anos, sou de Fortaleza e estou sempre buscando evoluir na área com dedicação, criatividade e muita vontade de aprender.</p>
+    <p style="margin: 0 0 8px 0; color: #d9d9d9;">Me chamo Marcus Vinicius da Silva Lopes, tenho 16 anos e sou natural de Fortaleza(CE). Atualmente, cursando o 2º ano do Ensino Médio na EEEPSAM, concomitantemente ao curso técnico em Desenvolvimento de Sistemas. Tenho grande interesse pela área de tecnologia e pelo desenvolvimento de soluções digitais. Busco constantemente aprimorar meus conhecimentos em Desenvolvimento de Sistemas, adquirir novas habilidades e aplicá-las na criação de projetos e na resolução de problemas.</p>
   </div>
 </div>
 
