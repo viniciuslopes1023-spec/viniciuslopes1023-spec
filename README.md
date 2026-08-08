@@ -3,7 +3,7 @@
 </div>
 
 <div align="center" style="background: linear-gradient(135deg, #0f0f10 0%, #1a1a1d 100%); border: 1px solid #2d2d32; border-radius: 20px; padding: 24px; box-shadow: 0 10px 30px rgba(0,0,0,0.35); margin: 12px 0;">
-  <img align="right" width="240" height="300" src="https://i.ibb.co/Q3txCnvK/Chat-GPT-Image-8-de-ago-de-2026-00-17-03.png" style="border-radius: 18px; border: 2px solid #C2410C; box-shadow: 0 0 18px rgba(194,65,12,0.35);" alt="Marcus Vinicius" />
+  <img align="right" width="220" height="280" src="https://i.ibb.co/Q3txCnvK/Chat-GPT-Image-8-de-ago-de-2026-00-17-03.png" style="border-radius: 18px; border: 2px solid #C2410C; box-shadow: 0 0 18px rgba(194,65,12,0.35); margin-left: 18px; margin-top: 6px;" alt="Marcus Vinicius" />
 
   <div align="left">
     <h2 style="margin: 0 0 8px 0; color: #f5f5f5;">👨‍💻 Marcus Vinicius</h2>
