@@ -2,12 +2,24 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&height=110&section=header&reversal=false&fontSize=70&fontColor=C2410C&fontAlign=50&fontAlignY=50&stroke=-&descSize=20&descAlign=50&descAlignY=50&textBg=false&color=C2410C" alt="header" />
 </div>
 
-<div align="center" style="background: linear-gradient(135deg, #0b0d10 0%, #151821 100%); border: 1px solid #2d3748; border-radius: 22px; padding: 24px; box-shadow: 0 0 0 1px rgba(255,138,61,0.12), 0 12px 35px rgba(0,0,0,0.4); margin: 12px 0;">
-  <p style="margin: 0 0 10px 0; font-family: 'Fira Code', 'JetBrains Mono', monospace; color: #7CFFCB; font-size: 14px; letter-spacing: 1px;">~/dev $ echo "Hello, world!"</p>
-  <div align="left">
-    <h2 style="margin: 0 0 8px 0; color: #f5f5f5; font-family: 'Fira Code', 'JetBrains Mono', monospace; text-shadow: 0 0 10px rgba(255,138,61,0.25);">👨‍💻 Marcus Vinicius</h2>
-    <p style="margin: 0 0 10px 0; color: #ff8a3d; font-weight: bold; font-family: 'Fira Code', 'JetBrains Mono', monospace;">Desenvolvedor Backend • Java • Programador</p>
-    <p style="margin: 0 0 8px 0; color: #d9d9d9; line-height: 1.6;">Me chamo Marcus Vinicius da Silva Lopes, tenho 16 anos e sou natural de Fortaleza(CE). Atualmente, cursando o 2º ano do Ensino Médio na EEEPSAM, concomitantemente ao curso técnico em Desenvolvimento de Sistemas. Tenho grande interesse pela área de tecnologia e pelo desenvolvimento de soluções digitais. Busco constantemente aprimorar meus conhecimentos em Desenvolvimento de Sistemas, adquirir novas habilidades e aplicá-las na criação de projetos e na resolução de problemas.</p>
+<div align="center" style="background: linear-gradient(135deg, #08090d 0%, #121722 45%, #1b2230 100%); border: 1px solid #2f3b53; border-radius: 24px; padding: 24px 26px; margin: 16px 0; box-shadow: 0 0 0 1px rgba(255,138,61,0.14), 0 18px 45px rgba(0,0,0,0.45);">
+  <div align="left" style="padding: 12px 14px; background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.06); border-radius: 16px;">
+    <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 12px;">
+      <span style="width: 10px; height: 10px; border-radius: 50%; background: #ff5f56;"></span>
+      <span style="width: 10px; height: 10px; border-radius: 50%; background: #febc2e;"></span>
+      <span style="width: 10px; height: 10px; border-radius: 50%; background: #27c93f;"></span>
+    </div>
+
+    <p style="margin: 0 0 10px 0; font-family: 'Fira Code', 'JetBrains Mono', monospace; color: #7CFFCB; font-size: 13px; letter-spacing: 1px;">~/dev $ echo "Hello, world!"</p>
+    <h2 style="margin: 0 0 8px 0; color: #ffffff; font-family: 'Fira Code', 'JetBrains Mono', monospace; text-shadow: 0 0 12px rgba(255,138,61,0.24);">👨‍💻 Marcus Vinicius</h2>
+    <p style="margin: 0 0 10px 0; color: #ff8a3d; font-weight: 700; font-family: 'Fira Code', 'JetBrains Mono', monospace;">Desenvolvedor Backend • Java • Programador</p>
+    <p style="margin: 0 0 8px 0; color: #d9d9d9; line-height: 1.7;">Me chamo Marcus Vinicius da Silva Lopes, tenho 16 anos e sou natural de Fortaleza(CE). Atualmente, cursando o 2º ano do Ensino Médio na EEEPSAM, concomitantemente ao curso técnico em Desenvolvimento de Sistemas. Tenho grande interesse pela área de tecnologia e pelo desenvolvimento de soluções digitais. Busco constantemente aprimorar meus conhecimentos em Desenvolvimento de Sistemas, adquirir novas habilidades e aplicá-las na criação de projetos e na resolução de problemas.</p>
+  </div>
+
+  <div align="center" style="margin-top: 16px;">
+    <img src="https://img.shields.io/badge/Focus-Backend-orange?style=for-the-badge&logo=java&logoColor=white" alt="Focus Backend" />
+    <img src="https://img.shields.io/badge/Stack-Java%20%2F%20Spring-darkgreen?style=for-the-badge&logo=java&logoColor=white" alt="Java Spring" />
+    <img src="https://img.shields.io/badge/Goal-Always%20Learning-ff69b4?style=for-the-badge" alt="Always learning" />
   </div>
 </div>
 
