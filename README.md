@@ -4,10 +4,10 @@
 
 <div align="center" style="background: linear-gradient(135deg, #08090d 0%, #121722 45%, #1b2230 100%); border: 1px solid #2f3b53; border-radius: 24px; padding: 24px; margin: 16px 0; box-shadow: 0 0 0 1px rgba(255,138,61,0.14), 0 12px 30px rgba(0,0,0,0.35);">
   <div align="left" style="padding: 12px; background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.06); border-radius: 14px;">
-    <p style="margin: 0 0 8px 0; color: #7CFFCB; font-size: 13px; font-family: Arial, sans-serif;">~/dev $ echo "Hello, world!"</p>
+    <p style="margin: 0 0 8px 0; color: #7CFFCB; font-size: 13px; font-family: Arial, sans-serif;">~/dev $ echo &quot;Hello, world!&quot;</p>
     <h2 style="margin: 0 0 8px 0; color: #ffffff; font-family: Arial, sans-serif;">👨‍💻 Marcus Vinicius</h2>
     <p style="margin: 0 0 8px 0; color: #ff8a3d; font-weight: bold; font-family: Arial, sans-serif;">Desenvolvedor Backend • Java • Programador</p>
-    <p style="margin: 0; color: #d9d9d9; font-family: Arial, sans-serif; line-height: 1.5;">Sou Marcus Vinicius, um jovem apaixonado por tecnologia e desenvolvimento. Estudo Java, gosto de criar soluções e estou sempre buscando evoluir com dedicação, criatividade e muito aprendizado.</p>
+    <p style="margin: 0; color: #d9d9d9; font-family: Arial, sans-serif; line-height: 1.5;">Me chamo Marcus Vinicius da Silva Lopes, tenho 16 anos e sou natural de Fortaleza(CE). Atualmente, cursando o 2º ano do Ensino Médio na EEEPSAM, concomitantemente ao curso técnico em Desenvolvimento de Sistemas. Tenho grande interesse pela área de tecnologia e pelo desenvolvimento de soluções digitais. Busco constantemente aprimorar meus conhecimentos em Desenvolvimento de Sistemas, adquirir novas habilidades e aplicá-las na criação de projetos e na resolução de problemas.</p>
   </div>
 </div>
 
