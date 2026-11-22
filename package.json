@@ -13,7 +13,8 @@
     "dev:web": "npm run dev --workspace web",
     "build": "npm run build --workspace server && npm run build --workspace web",
     "start": "npm run start --workspace server",
-    "typecheck": "npm run typecheck --workspace server && npm run typecheck --workspace web"
+    "typecheck": "npm run typecheck --workspace server && npm run typecheck --workspace web && npm run typecheck:api",
+    "typecheck:api": "tsc -p tsconfig.api.json --noEmit"
   },
   "devDependencies": {
     "concurrently": "^9.2.1"

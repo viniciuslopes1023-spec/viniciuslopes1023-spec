@@ -1,5 +1,5 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
-import { ensureDb, persistDb } from './_runtime';
+import { ensureDb, persistDb } from './_runtime.js';
 
 function sleep(ms: number): Promise<void> {
   return new Promise((resolve) => setTimeout(resolve, ms));
@@ -13,7 +13,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
 
   try {
     await ensureDb();
-    const { runScan, getScanStatus } = await import('../server/src/services/scanner');
+    const { runScan, getScanStatus } = await import('../server/src/services/scanner.js');
     const started = await runScan('scheduled');
     if (!started) {
       res.status(202).json({ ok: true, skipped: true });

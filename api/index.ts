@@ -1,7 +1,7 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
 import type { Express } from 'express';
-import { ensureDb, persistDb } from './_runtime';
-import { createApp } from '../server/src/app';
+import { ensureDb, persistDb } from './_runtime.js';
+import { createApp } from '../server/src/app.js';
 
 let app: Express | null = null;
 

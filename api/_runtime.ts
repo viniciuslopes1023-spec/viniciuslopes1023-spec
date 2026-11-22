@@ -15,9 +15,16 @@ export async function ensureDb(): Promise<void> {
   fs.mkdirSync(path.dirname(DB_PATH), { recursive: true });
   if (!token) return;
   try {
-    const blob = await get(BLOB_PATH, { token });
-    if (!blob) return;
-    const body = Buffer.from(await blob.arrayBuffer());
+    const result = await get(BLOB_PATH, { token, access: 'private' });
+    if (!result || result.statusCode !== 200 || !result.stream) return;
+    const reader = result.stream.getReader();
+    const chunks: Buffer[] = [];
+    for (;;) {
+      const { done, value } = await reader.read();
+      if (done) break;
+      if (value) chunks.push(Buffer.from(value));
+    }
+    const body = Buffer.concat(chunks);
     if (body.length > 0) fs.writeFileSync(DB_PATH, body);
   } catch (error) {
     console.error('[gringa] falha ao baixar banco do Blob:', error);
