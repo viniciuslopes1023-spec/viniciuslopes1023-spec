@@ -1,59 +1,75 @@
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=110&section=header&reversal=false&fontSize=70&fontColor=C2410C&fontAlign=50&fontAlignY=50&stroke=-&descSize=20&descAlign=50&descAlignY=50&textBg=false&color=C2410C" alt="header" />
-</div>
+# GRINGA
 
-<div align="center" style="background: linear-gradient(135deg, #08090d 0%, #121722 45%, #1b2230 100%); border: 1px solid #2f3b53; border-radius: 24px; padding: 24px; margin: 16px 0; box-shadow: 0 0 0 1px rgba(255,138,61,0.14), 0 12px 30px rgba(0,0,0,0.35);">
-  <div align="left" style="padding: 14px 16px; background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.06); border-radius: 16px;">
-    <p style="margin: 0 0 8px 0; color: #7CFFCB; font-size: 13px; font-family: Arial, sans-serif;"></p>
-    <h2 style="margin: 0 0 8px 0; color: #ffffff; font-family: Arial, sans-serif;">👨‍💻 Marcus Vinicius</h2>
-    <p style="margin: 0 0 8px 0; font-family: Arial, sans-serif;"><span style="color: #ff8a3d; font-weight: 900; font-size: 17px; letter-spacing: 0.03em; background: rgba(255,138,61,0.18); padding: 5px 12px; border-radius: 12px; box-shadow: 0 0 20px rgba(255,138,61,0.10);">Desenvolvedor Backend</span></p>
-    <p style="margin: 0; color: #d9d9d9; font-family: Arial, sans-serif; line-height: 1.5;">Me chamo Marcus Vinicius da Silva Lopes, tenho 16 anos e sou natural de Fortaleza(CE). Atualmente, cursando o 2º ano do Ensino Médio na EEEPSAM, concomitantemente ao curso técnico em Desenvolvimento de Sistemas. Tenho grande interesse pela área de tecnologia e pelo desenvolvimento de soluções digitais. Busco constantemente aprimorar meus conhecimentos em Desenvolvimento de Sistemas, adquirir novas habilidades e aplicá-las na criação de projetos e na resolução de problemas.</p>
-  </div>
-</div>
+Ferramenta privada e leve de prospecção: encontra empresas de serviços locais em países estrangeiros **sem website próprio identificado**, reúne contatos públicos e prepara o prompt de criação do site e a mensagem de primeiro contato.
 
-<br clear="both">
+Tudo em uma única tela. Sem SaaS, sem cadastro público, sem APIs pagas.
 
-<div align="center" style="margin: 20px 0 8px 0;">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=C2410C&center=true&vCenter=true&width=500&lines=Java+Developer;Backend+Enthusiast;Always+learning" alt="typing svg" />
-</div>
+## Executar
 
-<div align="center" style="background: linear-gradient(135deg, #101218 0%, #171b24 100%); border: 1px solid #2d3748; border-radius: 18px; padding: 16px; margin: 12px 0; box-shadow: inset 0 0 20px rgba(124,255,203,0.06);">
-  <p style="margin: 0 0 10px 0; color: #f5f5f5; font-weight: bold; font-family: 'Fira Code', 'JetBrains Mono', monospace;">Tecnologias e ferramentas</p>
-  <div data-importer="techs" align="center" style="display:flex;flex-wrap:wrap;gap:12px;justify-content:center;align-items:center;">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="40" alt="java logo" />
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" height="40" alt="spring logo" />
-    <img width="12" />
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="40" alt="postgresql logo" />
-    <img width="12" />
-    <img src="https://skillicons.dev/icons?i=supabase" height="40" alt="supabase logo" />
-    <img width="12" />
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fedora/fedora-original.svg" height="40" alt="fedora logo" />
-    <img width="12" />
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" alt="git logo" />
-    <img width="12" />
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="40" alt="github logo" />
-    <img width="12" />
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/insomnia/insomnia-original.svg" height="40" alt="insomnia logo" />
-    <img width="12" />
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="40" alt="typescript logo" />
-    <img width="12" />
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="40" alt="linux logo" />
-    <img width="12" />
-    <img src="https://cdn.simpleicons.org/markdown/000000" height="40" alt="markdown logo" />
-    <img width="12" />
-    <img src="https://cdn.simpleicons.org/apachemaven/C71A36" height="40" alt="apachemaven logo" />
-  </div>
-</div>
+```bash
+npm install
+npm run dev
+```
 
-<div align="center" style="margin: 24px 0 0 0; display:flex; gap:18px; justify-content:center; flex-wrap:wrap;">
-  <a href="https://www.linkedin.com" target="blank"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo" style="border-radius: 10px; box-shadow: 0 0 12px rgba(255,138,61,0.15);" /></a>
-  <a href="https://discord.com" target="blank"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/discord/default.svg" width="52" height="40" alt="discord logo" style="border-radius: 10px; box-shadow: 0 0 12px rgba(255,138,61,0.15);" /></a>
-  <a href="https://wa.me/" target="blank"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/whatsapp/default.svg" width="52" height="40" alt="whatsapp logo" style="border-radius: 10px; box-shadow: 0 0 12px rgba(255,138,61,0.15);" /></a>
-  <a href="https://www.instagram.com" target="blank"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" width="52" height="40" alt="instagram logo" style="border-radius: 10px; box-shadow: 0 0 12px rgba(255,138,61,0.15);" /></a>
-</div>
+Abra o endereço mostrado pelo Vite (normalmente `http://localhost:5173`; se a porta estiver ocupada, ele escolhe a próxima, por exemplo `5174`).
 
-<br clear="both">
+No primeiro start, se `ADMIN_PASSWORD` não estiver definido, o servidor gera uma senha aleatória, imprime no terminal e salva em `data/initial-credentials.txt`. Use essas credenciais para entrar.
 
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&reversal=false&fontSize=70&fontColor=C2410C&fontAlign=50&fontAlignY=50&stroke=-&descSize=20&descAlign=50&descAlignY=50&color=C2410C" alt="footer" />
-</div>
+Para rodar a versão compilada em uma porta só:
+
+```bash
+npm run build
+npm start
+```
+
+Abra `http://localhost:4000` (o Express serve o frontend compilado).
+
+## Como funciona
+
+1. **Busca automática** — consultas periódicas à API pública do OpenStreetMap (Overpass), em 26 áreas metropolitanas estrangeiras, filtrando nichos como pintura, encanamento, telhado, limpeza, jardinagem, reparo de carros, mudanças etc. Uma varredura usa 3 áreas por execução e no máximo 30 empresas por área.
+2. **Filtro de website** — links de Instagram, Facebook, Yelp, Google, marketplaces e diretórios **nunca** contam como website próprio. Quando existe um domínio próprio, ele é verificado em tempo real (HEAD/GET com timeout):
+   - `NO WEBSITE FOUND` — nenhum website próprio identificado nas fontes consultadas (na lista principal; **ausência em fontes públicas não é prova absoluta**).
+   - `WEBSITE EXISTS` — domínio próprio responde (inclusive 403/429 de proteção anti-bot); removido da lista principal.
+   - `WEBSITE BROKEN` — domínio existe mas não responde ou retorna erro; oportunidade secundária.
+   - `UNVERIFIED` — verificação inconclusiva (timeout, erro de rede); oportunidade secundária.
+3. **Contatos** — telefone, e-mail, Instagram e Facebook são lidos das tags públicas do OSM (inclusive telefones extraídos de descrições públicas), junto com a URL da empresa no OpenStreetMap como fonte. Nada é inventado. A consulta prioriza negócios com telefone e sem tag de website. A aba **COM TELEFONE** mostra apenas oportunidades com número real. Quando não há contato, o botão **BUSCAR CONTATO** abre uma pesquisa manual.
+4. **Score 0–100** — prioriza ausência de website, contato disponível, sinais de atividade, dados suficientes para personalizar e nicho de interesse. É apenas uma ordem de prioridade, não previsão de venda.
+5. **Prompt e mensagem** — gerados por templates inteligentes a partir dos dados reais. A interface e o prompt de criação estão em **português**; o prompt marca `[CONFIRMAR COM O PROPRIETÁRIO]` para qualquer informação ausente. A mensagem de primeira abordagem permanece em **inglês** (o público é estrangeiro) e é curta, sem promessas falsas. **Nenhuma mensagem é enviada automaticamente** — WhatsApp abre o app para revisão, e-mail abre o cliente de e-mail.
+6. **Persistência** — SQLite em `data/gringa.db`, com deduplicação por ID do OSM e por nome+cidade+país. Buscas duplicadas não criam leads repetidos.
+
+A busca automática roda a cada 6 horas (cron no processo do servidor) e também 15 segundos após o start se o banco estiver vazio. O botão `RUN SCAN` dispara uma busca manual, com intervalo mínimo de 15 minutos. O computador precisa estar ligado.
+
+## Configuração
+
+Copie `.env.example` para `.env` e ajuste:
+
+| Variável | Padrão | Uso |
+|---|---|---|
+| `ADMIN_EMAIL` | `admin@gringa.local` | Usuário único do sistema |
+| `ADMIN_PASSWORD` | vazio (gerado) | Senha inicial — defina a sua |
+| `JWT_SECRET` | gerado em `data/jwt-secret` | Assinatura da sessão |
+| `SCAN_INTERVAL_HOURS` | `6` | Periodicidade da automação |
+| `REGIONS_PER_RUN` | `3` | Áreas por varredura |
+| `MAX_RESULTS_PER_REGION` | `30` | Limite de empresas por área |
+| `OVERPASS_DELAY_MS` | `5000` | Intervalo entre consultas |
+| `OVERPASS_TIMEOUT_MS` | `90000` | Timeout de cada consulta |
+| `WEBSITE_TIMEOUT_MS` | `15000` | Timeout da verificação de domínio |
+
+## Limitações reais
+
+- O Overpass público é gratuito e compartilhado; em horários de pico pode responder devagar ou com erro. O sistema tenta 3 endpoints públicos com intervalo entre consultas e registra falhas em `scan_runs` sem insinuar sucesso.
+- O OpenStreetMap é colaborativo: muitos negócios não têm telefone ou email cadastrado. Nesses casos o lead recebe o botão **BUSCAR CONTATO** e score menor.
+- Não há IA paga: prompts e mensagens vêm de templates locais. São bons como ponto de partida, não como texto final pronto sem revisão.
+- Verificações de sites são feitas com HEAD/GET. Sites protegidos por Cloudflare podem retornar 403 — isso é tratado como "site existe, não foi possível carregar", nunca como "site quebrado".
+- O banco fica somente nesta máquina. Não há sincronização entre dispositivos.
+
+## Segurança
+
+- Sem registro público: apenas o usuário configurado no bootstrap.
+- Senha armazenada com hash bcrypt.
+- Sessão em cookie httpOnly com JWT; `/api/leads` e `/api/scan` exigem autenticação.
+- Nenhuma credencial é enviada ao frontend.
+
+## Fontes de dados
+
+Dados de empresas: © [OpenStreetMap contributors](https://www.openstreetmap.org/copyright), disponíveis sob ODbL. O sistema usa apenas a API pública do Overpass, com identificador de aplicação e intervalos entre consultas.
