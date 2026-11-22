@@ -19,7 +19,7 @@
     "concurrently": "^9.2.1"
   },
   "engines": {
-    "node": ">=20"
+    "node": "22.x"
   },
   "dependencies": {
     "@vercel/blob": "^2.0.0"
