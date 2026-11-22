@@ -4,11 +4,20 @@
   "installCommand": "npm install",
   "buildCommand": "npm run build",
   "outputDirectory": "web/dist",
-  "functions": {
-    "api/index.ts": { "maxDuration": 300 },
-    "api/cron.ts": { "maxDuration": 300 }
-  },
   "crons": [
-    { "path": "/api/cron", "schedule": "0 6 * * *" }
+    {
+      "path": "/api/cron",
+      "schedule": "0 6 * * *"
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/api/cron",
+      "destination": "/api/cron"
+    },
+    {
+      "source": "/api/:path*",
+      "destination": "/api/index"
+    }
   ]
 }

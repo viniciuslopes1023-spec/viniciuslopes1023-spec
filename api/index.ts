@@ -5,9 +5,22 @@ import { createApp } from '../server/src/app.js';
 
 let app: Express | null = null;
 
+function restoreOriginalPath(req: VercelRequest): void {
+  const forwarded = req.query?.path;
+  if (typeof forwarded !== 'string' || !forwarded) return;
+  const params = new URLSearchParams();
+  for (const [key, value] of Object.entries(req.query || {})) {
+    if (key === 'path' || typeof value !== 'string') continue;
+    params.set(key, value);
+  }
+  req.url = `/api/${forwarded}${params.size ? `?${params.toString()}` : ''}`;
+  (req as VercelRequest & { query?: unknown }).query = undefined;
+}
+
 export default async function handler(req: VercelRequest, res: VercelResponse) {
   try {
     await ensureDb();
+    restoreOriginalPath(req);
     if (!app) app = createApp();
 
     const finished = new Promise<void>((resolve) => {
