@@ -1,7 +1,6 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
 import type { Express } from 'express';
 import { ensureDb, persistDb } from './_runtime.js';
-import { createApp } from '../server/src/app.js';
 
 let app: Express | null = null;
 
@@ -21,7 +20,10 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
   try {
     await ensureDb();
     restoreOriginalPath(req);
-    if (!app) app = createApp();
+    if (!app) {
+      const { createApp } = await import('../server/src/app.js');
+      app = createApp();
+    }
 
     const finished = new Promise<void>((resolve) => {
       res.once('finish', resolve);
