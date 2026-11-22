@@ -73,3 +73,20 @@ Copie `.env.example` para `.env` e ajuste:
 ## Fontes de dados
 
 Dados de empresas: © [OpenStreetMap contributors](https://www.openstreetmap.org/copyright), disponíveis sob ODbL. O sistema usa apenas a API pública do Overpass, com identificador de aplicação e intervalos entre consultas.
+
+## Deploy na Vercel
+
+Repositório: `https://github.com/viniciuslopes1023-spec/viniciuslopes1023-spec`
+Projeto Vercel: `event-fl-ow-s-projects/gringa`
+URL de produção: `https://gringa-event-fl-ow-s-projects.vercel.app`
+
+O deploy é full-stack: o frontend Vite é servido estaticamente e a API Express roda como funções serverless (`api/index.ts`). O banco SQLite é sincronizado com um **Vercel Blob privado** (`gringa/gringa.db`) a cada requisição, então login, leads, status e contatos persistem entre invocações.
+
+Variáveis configuradas no projeto: `ADMIN_EMAIL`, `ADMIN_PASSWORD`, `JWT_SECRET`, `CRON_SECRET`, `BLOB_READ_WRITE_TOKEN` (injeta automática ao vincular o store) e ajustes de limites de busca (`REGIONS_PER_RUN=1`, `MAX_RESULTS_PER_REGION=12`, timeouts reduzidos) para caber no limite de 5 minutos da função.
+
+**Limitações do plano Hobby:**
+- O cron da Vercel roda **uma vez por dia** (`0 6 * * *`); a automação a cada 6 horas continua disponível apenas rodando o servidor localmente.
+- Cada varredura na Vercel processa 1 região e até 12 empresas para não estourar o timeout da função. Localmente são 3 regiões e 30 empresas.
+- O agendador em processo (`node-cron`) não roda em serverless — ele existe apenas no `npm start` local.
+
+Para atualizar o deploy: `git push origin main` (deploy automático) ou `vercel deploy --prod`.
