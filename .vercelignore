@@ -1,0 +1,8 @@
+node_modules
+.git
+.env
+.env.local
+data
+server/dist
+web/dist
+*.log
