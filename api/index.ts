@@ -14,7 +14,7 @@ function restoreOriginalPath(req: VercelRequest): void {
     params.set(key, value);
   }
   req.url = `/api/${forwarded}${params.size ? `?${params.toString()}` : ''}`;
-  (req as VercelRequest & { query?: unknown }).query = undefined;
+  (req as unknown as { query: unknown }).query = undefined;
 }
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {

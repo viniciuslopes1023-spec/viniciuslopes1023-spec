@@ -1,7 +1,7 @@
 import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
-import { get, put } from '@vercel/blob';
+import { get, list, put } from '@vercel/blob';
 
 const DB_PATH = path.join(os.tmpdir(), 'gringa-data', 'gringa.db');
 const BLOB_PATH = 'gringa/gringa.db';
@@ -15,7 +15,10 @@ export async function ensureDb(): Promise<void> {
   fs.mkdirSync(path.dirname(DB_PATH), { recursive: true });
   if (!token) return;
   try {
-    const result = await get(BLOB_PATH, { token, access: 'private' });
+    const listed = await list({ prefix: BLOB_PATH, token });
+    const blob = listed.blobs.find((item) => item.pathname === BLOB_PATH);
+    if (!blob) return;
+    const result = await get(blob.url, { token, access: 'private' });
     if (!result || result.statusCode !== 200 || !result.stream) return;
     const reader = result.stream.getReader();
     const chunks: Buffer[] = [];
